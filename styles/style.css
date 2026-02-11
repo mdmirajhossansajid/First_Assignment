@@ -155,10 +155,76 @@ header {
         font-weight: 500;
         color: #001931;
         margin-bottom: 16px;
+        text-align: center;
 }
 .cart-item p {
         font-size: 16px;
         color: #627384;
         line-height: 20px;
-        max-width: 274px;
+    
 }
+#soluation {
+    max-width: 1360px;
+    margin: 120px auto;
+}
+#soluation .soluation-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+#soluation .soluation-content img {
+    max-width: 600px;
+    max-height: 100%;
+    border-radius: 12px;
+}
+.soluation-text .green {
+    color: #30b868;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.soluation-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.soluation-text p {
+    font-size: 16px;
+    color: #627384;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.list {
+    list-style: none;
+    
+}
+.list li {
+    margin-bottom: 16px;
+    
+}
+#challenge {
+    margin: 120px;
+    max-width: 1360px;
+    border-radius: 12px;
+}
+#challenge .challenge-content {
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+.challenge-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.challenge-content p {
+    font-size: 16px;
+    color: #627384;
+    line-height: 24px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+
