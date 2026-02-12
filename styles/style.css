@@ -43,6 +43,9 @@ nav .menu a {
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
+    display: inline flex;
+    align-items: center;
+    gap: 8px;
 }
 .btn:hover {
     background-color: #0d5528;
@@ -273,5 +276,26 @@ footer{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 
+    background-color: #f1f5f3;
+    color: #469165;
 
+    padding: 10px 18px;
+    border-radius: 999px;
+    /* better than 50px */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.status-badge .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #469165;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
