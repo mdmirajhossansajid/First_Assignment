@@ -226,5 +226,52 @@ header {
     margin-bottom: 24px;
     margin-top: 16px;
 }
+footer{
+    background-color: #001931;
+    color: #FFFFFF;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 120px 80px 120px;
+    
+
+}
+.footer-content .icons h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+
+}
+
+.footer-content .icons i {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    color: #001931;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.line {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 120px;
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 
